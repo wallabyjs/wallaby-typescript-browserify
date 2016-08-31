@@ -24,7 +24,7 @@ module.exports = function () {
 
     postprocessor: wallabyPostprocessor,
 
-    bootstrap: function (w) {
+    setup: function (w) {
       window.__moduleBundler.loadTests();
     }
   };
